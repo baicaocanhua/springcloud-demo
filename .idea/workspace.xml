@@ -1,14 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="346095b4-d786-4d3e-a25a-81623faa8279" name="Default Changelist" comment="" />
+    <list default="true" id="55031925-ecc5-41eb-b2c2-a24a9078871c" name="Default Changelist" comment="第一个版本">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/src/main/java/com/huang/springcloud/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/target/classes/META-INF/maven/com.huang.springcloud/ConfigClient/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/target/classes/META-INF/maven/com.huang.springcloud/ConfigClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/target/classes/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/target/classes/com/huang/springcloud/ConfigClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/huang/springcloud/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/user/config-client-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/target/classes/META-INF/maven/com.huang.springcloud/ConfigServer/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/target/classes/META-INF/maven/com.huang.springcloud/ConfigServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/target/classes/com/huang/springcloud/ConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/target/classes/user/config-client-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/src/main/java/com/huang/springcloud/EurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/target/classes/META-INF/maven/com.huang.springcloud/EurekaClient/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/target/classes/META-INF/maven/com.huang.springcloud/EurekaClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaClient/target/classes/com/huang/springcloud/EurekaClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/ServiceFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/controller/FeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/META-INF/maven/com.huang.springcloud/ServiceFeign/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/META-INF/maven/com.huang.springcloud/ServiceFeign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/com/huang/springcloud/ServiceFeignApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/com/huang/springcloud/controller/FeignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceFeign/target/classes/com/huang/springcloud/service/FeignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/src/main/java/com/huang/springcloud/ServiceRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/src/main/java/com/huang/springcloud/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/src/main/java/com/huang/springcloud/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/META-INF/maven/com.huang.springcloud/ServiceRibbon/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/META-INF/maven/com.huang.springcloud/ServiceRibbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/com/huang/springcloud/ServiceRibbonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/com/huang/springcloud/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRibbon/target/classes/com/huang/springcloud/service/HelloService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/src/main/java/com/huang/springcloud/MyFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/src/main/java/com/huang/springcloud/ServiceZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/src/main/java/com/huang/springcloud/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/META-INF/maven/com.huang.springcloud/ServiceZuul/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/META-INF/maven/com.huang.springcloud/ServiceZuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/com/huang/springcloud/MyFallbackProvider$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/com/huang/springcloud/MyFallbackProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/com/huang/springcloud/ServiceZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceZuul/target/classes/com/huang/springcloud/filter/MyFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/huang/springcloud/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/huang/springcloud/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/ConfigServer/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ConfigClient/target/" />
-    <ignored path="$PROJECT_DIR$/EurekaClient/target/" />
     <ignored path="$PROJECT_DIR$/ServiceFeign/target/" />
     <ignored path="$PROJECT_DIR$/ServiceRibbon/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/EurekaClient/target/" />
     <ignored path="$PROJECT_DIR$/ServiceZuul/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,42 +130,119 @@
     <session id="-1987379649">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="5" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="7" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="5" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="7" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11" />
+          <entry key="txt" value="5" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="parent" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1176">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/huang/springcloud/eurekaserver/EurekaServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/controller/FeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EurekaServer/src/main/java/com/huang/springcloud/EurekaServerApplication.java">
+        <entry file="file://$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/service/FeignService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/huang/springcloud/eurekaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -70,13 +258,40 @@
         <option name="userSettingsFile" value="E:\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -89,13 +304,58 @@
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceFeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,11 +365,16 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533045316821" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533136485815" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -121,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ConfigClient" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.ConfigClientApplication" />
@@ -143,10 +408,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ServiceFeign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.ServiceFeignApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,12 +437,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
       <item itemvalue="Spring Boot.ServiceFeignApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.ServiceRibbonApplication" />
-      <item itemvalue="Spring Boot.ServiceZuulApplication" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
-      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -179,65 +451,57 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="346095b4-d786-4d3e-a25a-81623faa8279" name="Default Changelist" comment="" />
-      <created>1533039788236</created>
+      <changelist id="55031925-ecc5-41eb-b2c2-a24a9078871c" name="Default Changelist" comment="" />
+      <created>1533132226902</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533039788236</updated>
-      <workItem from="1533039792174" duration="678000" />
-      <workItem from="1533040555706" duration="398000" />
-      <workItem from="1533042860164" duration="962000" />
-      <workItem from="1533043980324" duration="1557000" />
-      <workItem from="1533126709346" duration="605000" />
+      <updated>1533132226902</updated>
+      <workItem from="1533132233026" duration="840000" />
+      <workItem from="1533133368721" duration="964000" />
+      <workItem from="1533134669152" duration="937000" />
+      <workItem from="1533135665302" duration="812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4200000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="3553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49388754" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" sideWeight="0.5036675" side_tool="true" weight="0.25718608" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5036675" side_tool="true" weight="0.25718608" />
-      <window_info id="Web" order="7" sideWeight="0.50611246" side_tool="true" weight="0.26096824" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.29392448" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.505295" side_tool="true" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.494705" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49848714" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.39788198" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
@@ -247,11 +511,60 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一个版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一个版本" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EurekaServer/src/main/java/com/huang/springcloud/EurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/EurekaServer/src/main/java/com/huang/springcloud/EurekaServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/EurekaServer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/EurekaClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/huang/springcloud/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceFeign/src/main/java/com/huang/springcloud/service/FeignService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>

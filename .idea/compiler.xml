@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ConfigClient" />
         <module name="ConfigServer" />
+        <module name="eureka-server" />
         <module name="EurekaClient" />
         <module name="ServiceFeign" />
         <module name="ServiceRibbon" />

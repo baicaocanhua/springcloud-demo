@@ -1,0 +1,11 @@
+server:
+  port: 8763 #服务端口
+
+eureka:
+  client:
+    serviceUrl: #指定服务注册中心地址，类型为 HashMap，并设置有一组默认值，默认的Key为 defaultZone；默认的Value为 http://localhost:8761/eureka ，如果服务注册中心为高可用集群时，多个注册中心地址以逗号分隔
+      defaultZone: http://localhost:8761/eureka/  #Eureka客户端和服务端进行交互的地址，服务注册中心的地址
+
+spring:
+  application:
+    name: eureka-client  #服务名

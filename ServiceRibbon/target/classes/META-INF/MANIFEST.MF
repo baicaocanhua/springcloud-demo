@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: service-ribbon
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 黄世增
+Implementation-Vendor-Id: com.huang.springcloud
+Build-Jdk: 1.8.0_40
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/parent/ServiceRibbon
+Created-By: Maven Integration for Eclipse
+
