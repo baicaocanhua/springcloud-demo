@@ -13,7 +13,7 @@ public class HelloController {
 	
 	@Autowired
 	private HelloService helloService;
-	@Value("${aaa}")
+//	@Value("${aaa}")  //不用加载配置时将这句话注释掉即可，要就加上
 	String aaa;
 
 	@GetMapping("/hi")
