@@ -9,3 +9,24 @@ eureka:
 spring:
   application:
     name: service-ribbon  #服务名
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config-server
+
+## 刷新时，关闭安全验证
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info  #配置actuator暴露的接入点，默认只有health和info，所以要添加refresh
+  security:
+    enabled: false
+
+endpoints:
+  actuator:
+    enabled: true
