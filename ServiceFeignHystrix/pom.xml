@@ -5,10 +5,10 @@
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>EurekaClient</artifactId>
+  <artifactId>ServiceFeignHystrix</artifactId>
   
-  <name>Eureka Client</name>
-  <description>服务提供者</description>
+  <name>ServiceFeignHystrix</name>
+  <description>服务消费者（feign 集群）</description>
   
   <dependencies>
       <dependency>
@@ -20,9 +20,8 @@
           <artifactId>spring-boot-starter-web</artifactId>
       </dependency>
       <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-devtools</artifactId>
-          <optional>true</optional>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-openfeign</artifactId>
       </dependency>
   </dependencies>
 </project>
