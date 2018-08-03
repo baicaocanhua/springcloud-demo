@@ -13,9 +13,9 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 //@EnableDiscoveryClient
 @EnableFeignClients
-public class ServiceFeignApplication {
+public class ServiceFeignHystrixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run( ServiceFeignApplication.class, args );
+		SpringApplication.run( ServiceFeignHystrixApplication.class, args );
 	}
 }
