@@ -7,7 +7,7 @@
   </parent>
   <artifactId>ServiceFeign</artifactId>
   
-  <name>service-ribbon</name>
+  <name>service-feign</name>
   <description>服务消费者（feign 集群）</description>
   
   <dependencies>
