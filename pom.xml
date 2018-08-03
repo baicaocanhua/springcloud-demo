@@ -57,5 +57,6 @@
     <module>eureka-server</module>
     <module>ServiceRibbonHystrix</module>
     <module>ServiceFeignHystrix</module>
+    <module>admin-server</module>
   </modules>
 </project>
