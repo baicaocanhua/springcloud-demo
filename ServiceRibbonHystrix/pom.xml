@@ -5,9 +5,9 @@
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ServiceRibbon</artifactId>
+  <artifactId>ServiceRibbonHystrix</artifactId>
   
-  <name>service-ribbon</name>
+  <name>service-ribbon-hystrix</name>
   <description>在ribbon中使用断路器</description>
   
   <dependencies>

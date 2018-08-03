@@ -55,5 +55,7 @@
   	<module>ConfigServer</module>
   	<module>ConfigClient</module>
     <module>eureka-server</module>
+    <module>ServiceRibbonHystrix</module>
+    <module>ServiceFeignHystrix</module>
   </modules>
 </project>
