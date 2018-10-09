@@ -9,7 +9,11 @@ eureka:
 spring:
   application:
     name: service-feign-hystrix  #服务名
-    
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true # 开启重试机制
+
 feign:
   hystrix:
     enabled: true  #Feign中集成hystrix，只需在配置文件中开启即可
@@ -24,4 +28,15 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 600000
+            timeoutInMilliseconds: 600000 # 断路器的超时时间需要大于ribbon的超时时间，不然不会触发重试
+#eureka-client: #指定ribbon的超时设置
+#  ribbon:
+#    ReadTimeout: 120000
+#    ConnectionTimeout: 30000
+#    # 重试机制
+#    OkToRetryOnAllOperations: true  # 对所有操作请求都进行重试
+#    MaxAutoRetriesNextServer: 1 # 当前实例全部失败后可以换1个实例再重试
+#    MaxAutoRetries: 2 # 在当前实例只重试2次
+# 根据如上配置，当访问到故障请求的时候，它会再尝试访问一次当前实例（次数由MaxAutoRetries配置），
+# 如果不行，就换一个实例进行访问，如果还是不行，再换一次实例访问（更换次数由MaxAutoRetriesNextServer配置），
+# 如果依然不行，返回失败信息。
