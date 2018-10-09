@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
@@ -22,8 +24,10 @@ public class EurekaClientApplication {
 	
 	@RequestMapping("/hello")
 	public String hello(@RequestParam("name") String name) {
+        int sleepTime = new Random().nextInt(3000);
+        System.out.println("sleepTime: " + sleepTime);
         try {
-            Thread.sleep(5000);
+            Thread.sleep(sleepTime);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
