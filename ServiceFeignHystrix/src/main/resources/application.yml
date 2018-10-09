@@ -13,3 +13,15 @@ spring:
 feign:
   hystrix:
     enabled: true  #Feign中集成hystrix，只需在配置文件中开启即可
+# Feign超时设置
+# Feign的调用分两层，即Ribbon的调用和Hystrix的调用，高版本的Hystrix默认是关闭的
+ribbon:
+  ReadTimeout: 120000
+  ConnectionTimeout: 30000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 600000

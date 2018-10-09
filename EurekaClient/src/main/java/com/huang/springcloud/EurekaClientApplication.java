@@ -22,6 +22,11 @@ public class EurekaClientApplication {
 	
 	@RequestMapping("/hello")
 	public String hello(@RequestParam("name") String name) {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 		return name + ",from port: " + port;
 	}
 }

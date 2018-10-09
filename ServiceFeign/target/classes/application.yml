@@ -9,3 +9,9 @@ eureka:
 spring:
   application:
     name: service-feign  #服务名
+# Feign超时设置
+# Feign的调用分两层，即Ribbon的调用和Hystrix的调用，高版本的Hystrix默认是关闭的
+# 所以，没有用Hystrix时，只需设置Ribbon的超时设置即可
+#ribbon:
+#  ReadTimeout: 10000
+#  ConnectionTimeout: 10000
