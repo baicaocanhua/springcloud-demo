@@ -17,7 +17,9 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
-
+eureka-client:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 设置负载策略
 ## 刷新时，关闭安全验证
 management:
   endpoints:

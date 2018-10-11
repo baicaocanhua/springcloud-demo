@@ -12,11 +12,17 @@ spring:
   cloud:
     loadbalancer:
       retry:
-        enabled: true # 开启重试机制
-
+        enabled: true # 开启重试机制，F版时默认开启的，即本版本是默认开启的，可以不用配置
 feign:
   hystrix:
     enabled: true  #Feign中集成hystrix，只需在配置文件中开启即可
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
 # Feign超时设置
 # Feign的调用分两层，即Ribbon的调用和Hystrix的调用，高版本的Hystrix默认是关闭的
 ribbon:

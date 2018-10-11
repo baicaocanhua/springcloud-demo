@@ -9,3 +9,8 @@ eureka:
 spring:
   application:
     name: service-ribbon-hystrix  #服务名
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
