@@ -25,6 +25,11 @@
           <artifactId>spring-boot-starter-test</artifactId>
           <scope>test</scope>
       </dependency>
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <optional>true</optional>
+      </dependency>
   </dependencies>
   
   <dependencyManagement>
@@ -48,15 +53,18 @@
       </plugins>
   </build>
   <modules>
-  	<module>EurekaClient</module>
-  	<module>ServiceRibbon</module>
-  	<module>ServiceFeign</module>
-  	<module>ServiceZuul</module>
-  	<module>ConfigServer</module>
-  	<module>ConfigClient</module>
-    <module>eureka-server</module>
-    <module>ServiceRibbonHystrix</module>
-    <module>ServiceFeignHystrix</module>
-    <module>admin-server</module>
+
+      <module>EurekaClient</module>
+      <module>ServiceRibbon</module>
+      <module>ServiceFeign</module>
+      <module>ServiceZuul</module>
+      <module>ConfigServer</module>
+      <module>ConfigClient</module>
+      <module>eureka-server</module>
+      <module>ServiceRibbonHystrix</module>
+      <module>ServiceFeignHystrix</module>
+      <module>admin-server</module>
+      <module>zipkin-service-client1</module>
+      <module>zipkin-service-client2</module>
   </modules>
 </project>
