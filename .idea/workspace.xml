@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="558b9c6a-c8a8-4456-b0ca-dff03cbd3164" name="Default Changelist" comment="springcloud的demo的第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/springcloud-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/src/main/java/com/huang/springcloud/ServiceFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/src/main/java/com/huang/springcloud/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/src/main/java/com/huang/springcloud/service/FeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/src/main/java/com/huang/springcloud/service/FeignServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceFeignHystrix/src/test/java/com/huang/cloud/servicefeignhystrix/ServiceFeignHystrixApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/src/main/java/com/huang/springcloud/ServiceRibbonHystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/src/main/java/com/huang/springcloud/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/src/main/java/com/huang/springcloud/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRibbonHystrix/src/test/java/com/huang/cloud/serviceribbonhystrix/ServiceRibbonHystrixApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ServiceFeign/target/" />
     <ignored path="$PROJECT_DIR$/ConfigServer/target/" />
@@ -35,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/ServiceZuul/target/" />
     <ignored path="$PROJECT_DIR$/ServiceRibbonHystrix/target/" />
     <ignored path="$PROJECT_DIR$/ServiceFeignHystrix/target/" />
+    <ignored path="$PROJECT_DIR$/admin-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +65,37 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2009878236">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,6 +106,7 @@
         <option value="$PROJECT_DIR$/EurekaClient/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceFeignHystrix/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceFeignHystrix/src/main/java/com/huang/springcloud/service/FeignService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -108,9 +120,14 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="E:\maven local repository" />
-        <option name="mavenHome" value="E:/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -120,10 +137,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="9" />
+    <option name="y" value="19" />
+    <option name="width" value="1347" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,7 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,8 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,6 +201,13 @@
     <option name="contentProportion" value="0.31839257" />
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.adminserver.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ConfigClient" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.ConfigClientApplication" />
@@ -216,6 +239,13 @@
     <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ServiceFeign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignHystrixApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ServiceFeignHystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huang.springcloud.ServiceFeignHystrixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,6 +288,8 @@
       <item itemvalue="Spring Boot.ServiceZuulApplication" />
       <item itemvalue="Spring Boot.ServiceRibbonHystrixApplication (1)" />
       <item itemvalue="Spring Boot.ServiceFeignHystrixApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignHystrixApplication (1)" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -274,16 +306,18 @@
       <workItem from="1533214196448" duration="901000" />
       <workItem from="1533215428163" duration="1011000" />
       <workItem from="1533216642222" duration="243000" />
+      <workItem from="1545534524197" duration="919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2507000" />
+    <option name="totallyTimeSpent" value="3426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26410085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +334,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.27653632" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -314,7 +348,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297943" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
@@ -357,11 +391,6 @@
     <entry file="file://$PROJECT_DIR$/ServiceFeignHystrix/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ServiceFeignHystrix/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -373,9 +402,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
         </state>
       </provider>
     </entry>

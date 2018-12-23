@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
         <module name="ConfigClient" />
         <module name="ConfigServer" />
         <module name="eureka-server" />
@@ -17,5 +18,19 @@
         <module name="ServiceZuul" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigClient" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
+      <module name="EurekaClient" options="-parameters" />
+      <module name="ServiceFeign" options="-parameters" />
+      <module name="ServiceFeignHystrix" options="-parameters" />
+      <module name="ServiceRibbon" options="-parameters" />
+      <module name="ServiceRibbonHystrix" options="-parameters" />
+      <module name="ServiceZuul" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+    </option>
   </component>
 </project>

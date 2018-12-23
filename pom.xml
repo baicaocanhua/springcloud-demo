@@ -64,7 +64,5 @@
       <module>ServiceRibbonHystrix</module>
       <module>ServiceFeignHystrix</module>
       <module>admin-server</module>
-      <module>zipkin-service-client1</module>
-      <module>zipkin-service-client2</module>
   </modules>
 </project>
