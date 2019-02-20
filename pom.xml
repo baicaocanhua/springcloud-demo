@@ -64,5 +64,6 @@
       <module>ServiceRibbonHystrix</module>
       <module>ServiceFeignHystrix</module>
       <module>admin-server</module>
+      <module>service-gateway</module>
   </modules>
 </project>
