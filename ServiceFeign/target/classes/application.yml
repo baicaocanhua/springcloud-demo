@@ -12,11 +12,11 @@ spring:
 # Feign超时设置
 # Feign的调用分两层，即Ribbon的调用和Hystrix的调用，高版本的Hystrix默认是关闭的
 # 所以，没有用Hystrix时，只需设置Ribbon的超时设置即可
-eureka-client:
-  ribbon:
+#eureka-client:
+#  ribbon:
 #    ReadTimeout: 120000
 #    ConnectionTimeout: 30000
-    # 重试机制
-    OkToRetryOnAllOperations: true
-    MaxAutoRetriesNextServer: 0 # 当前实例全部失败后可以换1个实例再重试
-    MaxAutoRetries: 0 # 在当前实例只重试2次
+#    # 重试机制
+#    OkToRetryOnAllOperations: true
+#    MaxAutoRetriesNextServer: 1 # 当前实例全部失败后可以换1个实例再重试
+#    MaxAutoRetries: 2 # 在当前实例只重试2次
